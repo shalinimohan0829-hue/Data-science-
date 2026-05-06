@@ -1,0 +1,152 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": []
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "eG8oBG9M0s-K",
+        "outputId": "0df4a0fd-575c-4f88-eba5-5b5ff10a6ecc"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "[1 2 3 4 5]\n",
+            "5\n",
+            "1\n",
+            "3.0\n"
+          ]
+        }
+      ],
+      "source": [
+        "import numpy as np\n",
+        "a = [1,2,3,4,5]\n",
+        "type(a)\n",
+        "x = np.array(a)\n",
+        "print(x)\n",
+        "np.max(a)\n",
+        "print(np.max(a))\n",
+        "np.min(a)\n",
+        "print(np.min(a))\n",
+        "np.mean(a)\n",
+        "print(np.mean(a))"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "import numpy as np\n",
+        "a = np.random.randint(3,40,7)\n",
+        "print(a)\n",
+        "x=np.sort(a)\n",
+        "print(a)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "Htoe3P0N3Idf",
+        "outputId": "949b13fe-d257-4cf0-d7e0-c3426b9ba7f6"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "[30 18 30  5 17 11 12]\n",
+            "[30 18 30  5 17 11 12]\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "import numpy as np\n",
+        "x=np.random.randint(1,26,size=(5,5))\n",
+        "print(x)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "eUehOapV9XtI",
+        "outputId": "37686caa-2f7f-428b-f9d9-0c72af77a3c8"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "[[ 2 15 23 11 20]\n",
+            " [ 4 13  9 19  4]\n",
+            " [18 25  3 17 23]\n",
+            " [ 6  3 14  5 19]\n",
+            " [14 20 20  8 20]]\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "import numpy as np\n",
+        "x= np.arange(1,26).reshape(5,5)\n",
+        "print(x)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "-rFtKPVp_s2N",
+        "outputId": "e63639aa-c256-4624-8ee5-1ed9462f1ec2"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "[[ 1  2  3  4  5]\n",
+            " [ 6  7  8  9 10]\n",
+            " [11 12 13 14 15]\n",
+            " [16 17 18 19 20]\n",
+            " [21 22 23 24 25]]\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "import numpy as np\n",
+        "X ="
+      ],
+      "metadata": {
+        "id": "O8NKNBNcAyiR"
+      },
+      "execution_count": null,
+      "outputs": []
+    }
+  ]
+}
